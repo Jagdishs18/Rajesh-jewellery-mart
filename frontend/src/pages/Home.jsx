@@ -30,25 +30,27 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-neutral-200">
-        <div className="container mx-auto px-4 py-4">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-white via-amber-50/30 to-white backdrop-blur-md border-b-2 border-amber-200/50 shadow-sm">
+        <div className="container mx-auto px-6 py-5">
           <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-3">
-              <img 
-                src="https://customer-assets.emergentagent.com/job_rajesh-gold/artifacts/ssaaavsn_WhatsApp%20Image%202026-03-02%20at%204.36.28%20PM.jpeg" 
-                alt="Rajesh Jewellery Mart" 
-                className="h-14 w-14 object-contain"
-              />
+            <div className="flex items-center space-x-4 group">
+              <div className="bg-white p-2 rounded-lg shadow-md border border-amber-100 group-hover:shadow-lg transition-shadow">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_rajesh-gold/artifacts/0qemaafw_Gemini_Generated_Image_sw8u71sw8u71sw8u.png" 
+                  alt="Rajesh Jewellery Mart" 
+                  className="h-16 w-16 object-contain"
+                />
+              </div>
               <div>
-                <h1 className="text-xl font-bold text-neutral-900">Rajesh Jewellery Mart</h1>
-                <p className="text-xs text-neutral-600 italic">Inspired by You</p>
+                <h1 className="text-2xl font-bold text-neutral-900 tracking-tight">Rajesh Jewellery Mart</h1>
+                <p className="text-sm text-amber-700 italic font-medium">Inspired by You</p>
               </div>
             </div>
-            <nav className="hidden md:flex items-center space-x-8">
-              <a href="#home" className="text-neutral-700 hover:text-amber-600 transition-colors font-medium">Home</a>
-              <a href="#collections" className="text-neutral-700 hover:text-amber-600 transition-colors font-medium">Collections</a>
-              <Link to="/about" className="text-neutral-700 hover:text-amber-600 transition-colors font-medium">About</Link>
-              <a href="#contact" className="text-neutral-700 hover:text-amber-600 transition-colors font-medium">Contact</a>
+            <nav className="hidden md:flex items-center space-x-10">
+              <a href="#home" className="text-neutral-700 hover:text-amber-600 transition-all duration-300 font-semibold text-[15px] hover:scale-105">Home</a>
+              <a href="#collections" className="text-neutral-700 hover:text-amber-600 transition-all duration-300 font-semibold text-[15px] hover:scale-105">Collections</a>
+              <Link to="/about" className="text-neutral-700 hover:text-amber-600 transition-all duration-300 font-semibold text-[15px] hover:scale-105">About</Link>
+              <a href="#contact" className="text-neutral-700 hover:text-amber-600 transition-all duration-300 font-semibold text-[15px] hover:scale-105">Contact</a>
             </nav>
           </div>
         </div>
@@ -317,7 +319,7 @@ const Home = () => {
             <div>
               <div className="flex items-center space-x-3 mb-4">
                 <img 
-                  src="https://customer-assets.emergentagent.com/job_rajesh-gold/artifacts/ssaaavsn_WhatsApp%20Image%202026-03-02%20at%204.36.28%20PM.jpeg" 
+                  src="https://customer-assets.emergentagent.com/job_rajesh-gold/artifacts/0qemaafw_Gemini_Generated_Image_sw8u71sw8u71sw8u.png" 
                   alt="Rajesh Jewellery Mart" 
                   className="h-12 w-12 object-contain"
                 />
