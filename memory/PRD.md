@@ -5,13 +5,20 @@ Create a landing page website for Rajesh Jewellery Mart. A basic jewellery theme
 
 ## User Preferences
 - **Color Scheme**: Gold and white tones with red accents (matching their brand logo)
-- **Content**: Generic placeholder content
-- **Features**: Hero section, product/collection showcase, about us section, contact form, and Terms & Conditions page
+- **Content**: Generic placeholder content with specific legal terms and company details
+- **Features**: Hero section, product/collection showcase, about us section, contact form, Terms & Conditions page
 - **Images**: Stock images from Unsplash
 - **Design**: Custom elegant jewellery-focused design with luxury feel
 
+## Business Information
+- **Registered Name**: RAJESH JEWELLERY MART
+- **Address**: BBMP KHATHA NO 786/L-377, HSR LAYOUT SECTOR VI, Bengaluru, Karnataka 560102
+- **Phone**: +91 9362320307
+- **Email**: rajeshsusheel@gmail.com
+- **Established**: 1990 (30+ years of excellence)
+
 ## Architecture
-- **Frontend**: React with TypeScript/JavaScript
+- **Frontend**: React with JavaScript
 - **Styling**: Tailwind CSS with Shadcn UI components
 - **Routing**: React Router for multi-page navigation
 - **State Management**: React hooks
@@ -34,10 +41,25 @@ Create a landing page website for Rajesh Jewellery Mart. A basic jewellery theme
    - Header with navigation
    - Footer with links and social media
 
-2. **Terms & Conditions Page** (`/terms`)
-   - Comprehensive T&C covering all aspects
-   - Clean, readable layout
-   - Back to home navigation
+2. **About Us Page** (`/about`)
+   - Hero section with company tagline
+   - Our Story section with company history
+   - Why Choose Us section with 3 key features
+   - Contact information cards
+   - Statistics showcase
+   - Call-to-action section
+
+3. **Terms & Conditions Page** (`/terms`)
+   - Comprehensive T&C with legal content
+   - Introduction with registered address
+   - Website content and liability disclaimers
+   - Intellectual property rights
+   - Cancellation and refund policy
+   - Shipping and delivery policy
+   - Payment and transaction liability
+   - Governing law (India)
+   - Contact information
+   - Razorpay disclaimer
 
 ### Key Features
 - Responsive design (mobile-first approach)
@@ -46,6 +68,7 @@ Create a landing page website for Rajesh Jewellery Mart. A basic jewellery theme
 - Contact form with toast notifications
 - Integration with brand logo and colors
 - Professional jewellery imagery
+- Inter-page navigation with React Router
 
 ### Color Palette
 - Primary: Amber/Gold (#d97706 - amber-600)
@@ -58,8 +81,8 @@ Create a landing page website for Rajesh Jewellery Mart. A basic jewellery theme
 
 ### Date: March 2, 2026
 
-#### Frontend Components Created:
-1. **Home.jsx** - Main landing page with all sections
+#### Phase 1: Initial Website Creation
+1. **Home.jsx** - Main landing page
    - Full-screen hero with luxury jewellery background
    - Collections grid (4 categories with images)
    - Features section with icons
@@ -68,7 +91,7 @@ Create a landing page website for Rajesh Jewellery Mart. A basic jewellery theme
    - Header and footer
 
 2. **Terms.jsx** - Terms and conditions page
-   - 12 comprehensive sections
+   - Comprehensive legal content
    - Professional layout
    - Back navigation
 
@@ -77,16 +100,37 @@ Create a landing page website for Rajesh Jewellery Mart. A basic jewellery theme
    - Collection data (names, descriptions, images)
    - Features data with icons
 
-4. **App.js** - Updated routing
-   - Home route `/`
-   - Terms route `/terms`
-   - Sonner toast integration
+#### Phase 2: Legal Content and About Page Update
+1. **Updated Terms.jsx** with actual legal content:
+   - Registered business address
+   - Legal definitions (we/us/our, you/your/visitor)
+   - Website content and liability disclaimers
+   - Intellectual property rights
+   - External links policy
+   - Cancellation and refund policy (same-day cancellation rule)
+   - Shipping and delivery policy (0-7 days shipping)
+   - Payment and transaction liability
+   - Governing law (India)
+   - Razorpay disclaimer
+   - Updated contact information with actual phone and email
 
-5. **App.css** - Custom styling
-   - Smooth scroll behavior
-   - Custom scrollbar with gold theme
-   - Gold gradient text effect
-   - Transition animations
+2. **Created About.jsx** - Complete About Us page:
+   - Hero section with gradient background
+   - Our Story section with company history
+   - Why Choose Us (3 feature cards)
+   - Contact information (4 cards: Address, Phone, Email, Hours)
+   - Statistics section (30+ years, 10k+ customers, 500+ designs, 100% quality)
+   - Call-to-action section with buttons
+   - Proper header and footer with navigation
+
+3. **Updated Home.jsx**:
+   - Contact information updated to actual business details
+   - Navigation links updated (About now links to /about page)
+   - Footer links updated with About Us page link
+
+4. **Updated App.js**:
+   - Added /about route
+   - All three pages now properly routed
 
 ### Design Implementation:
 - ✅ Sticky header with logo and navigation
@@ -96,9 +140,11 @@ Create a landing page website for Rajesh Jewellery Mart. A basic jewellery theme
 - ✅ About section with statistics
 - ✅ Contact form with information cards
 - ✅ Footer with logo, links, and social media
-- ✅ Terms page with comprehensive content
+- ✅ Comprehensive Terms page with actual legal content
+- ✅ Complete About Us page with company information
 - ✅ Responsive design patterns
 - ✅ Gold/white/neutral color scheme
+- ✅ Smooth inter-page navigation
 
 ### Images Used:
 - Hero: Gold rings display in jewelry store
@@ -108,6 +154,26 @@ Create a landing page website for Rajesh Jewellery Mart. A basic jewellery theme
   - Gold Earrings: Elegant worn shot
   - Traditional Bangles: Bangles on red velvet
 - Craftsmanship: Ornate gold rings
+
+## Legal Policies Implemented
+
+### Cancellation and Refund
+- Same-day cancellation only
+- No cancellation for perishable items
+- Damaged items must be reported same day
+- Refunds processed in 1-2 days
+
+### Shipping and Delivery
+- Domestic: Registered courier/speed post
+- International: International courier/speed post
+- Shipping within 0-7 days from order
+- Not liable for courier delays
+- Contact: 9362320307, rajeshsusheel@gmail.com
+
+### Intellectual Property
+- All website content owned/licensed
+- Reproduction prohibited
+- Unauthorized use is criminal offense
 
 ## Prioritized Backlog
 
@@ -121,9 +187,10 @@ Create a landing page website for Rajesh Jewellery Mart. A basic jewellery theme
 - Image gallery/lightbox functionality
 - Collection filtering and search
 - Customer testimonials section
-- Store location map integration
+- Store location map integration (Google Maps)
 - Newsletter subscription
 - WhatsApp integration for quick contact
+- Online order tracking
 
 ### P2 (Nice to Have)
 - Admin panel for content management
@@ -134,16 +201,19 @@ Create a landing page website for Rajesh Jewellery Mart. A basic jewellery theme
 - Multi-language support
 - Live chat support
 - Virtual try-on feature
+- Payment gateway integration
 
 ## Next Action Items
-1. Get user approval on frontend design and functionality
-2. Backend development:
+1. ✅ Updated Terms & Conditions with actual legal content
+2. ✅ Created About Us page with company information
+3. ✅ Updated all contact details across the website
+4. Backend development (next phase):
    - Create contact form submission API
    - Store inquiries in MongoDB
    - Email notification system
-3. Frontend-Backend integration
-4. Testing and bug fixes
-5. Production deployment
+5. Frontend-Backend integration
+6. Testing and bug fixes
+7. Production deployment
 
 ## Technical Specifications
 
@@ -155,18 +225,10 @@ Create a landing page website for Rajesh Jewellery Mart. A basic jewellery theme
 - Lucide React icons
 - Sonner for toast notifications
 
-### Mock Data Structure
-```javascript
-{
-  images: { hero, craftsmanship },
-  collections: [{ name, description, image }],
-  features: [{ icon, title, description }]
-}
-```
-
 ### Routes
 - `/` - Home page
-- `/terms` - Terms and conditions
+- `/about` - About Us page
+- `/terms` - Terms and conditions page
 
 ## Notes
 - All data is currently mocked in `mock.js`
@@ -175,3 +237,5 @@ Create a landing page website for Rajesh Jewellery Mart. A basic jewellery theme
 - Responsive design tested for mobile and desktop
 - Smooth scroll navigation working
 - All interactive elements have proper hover states
+- Legal content includes Razorpay disclaimer
+- Actual business information integrated throughout the site
