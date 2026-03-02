@@ -260,8 +260,9 @@ const Home = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg text-neutral-900 mb-2">Visit Our Store</h3>
-                    <p className="text-neutral-600">123 Jewellery Street, MG Road</p>
-                    <p className="text-neutral-600">Bangalore, Karnataka 560001</p>
+                    <p className="text-neutral-600">BBMP KHATHA NO 786/L-377</p>
+                    <p className="text-neutral-600">HSR LAYOUT SECTOR VI</p>
+                    <p className="text-neutral-600">Bengaluru, Karnataka 560102</p>
                   </div>
                 </div>
               </Card>
@@ -273,8 +274,8 @@ const Home = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg text-neutral-900 mb-2">Call Us</h3>
-                    <p className="text-neutral-600">+91 98765 43210</p>
-                    <p className="text-neutral-600">+91 98765 43211</p>
+                    <p className="text-neutral-600">+91 9362320307</p>
+                    <p className="text-neutral-600 text-sm mt-1">Available during business hours</p>
                   </div>
                 </div>
               </Card>
@@ -286,8 +287,8 @@ const Home = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg text-neutral-900 mb-2">Email Us</h3>
-                    <p className="text-neutral-600">info@rajeshjewellery.com</p>
-                    <p className="text-neutral-600">support@rajeshjewellery.com</p>
+                    <p className="text-neutral-600">rajeshsusheel@gmail.com</p>
+                    <p className="text-neutral-600 text-sm mt-1">We reply within 24 hours</p>
                   </div>
                 </div>
               </Card>
