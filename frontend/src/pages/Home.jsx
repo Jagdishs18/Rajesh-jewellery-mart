@@ -47,7 +47,7 @@ const Home = () => {
             <nav className="hidden md:flex items-center space-x-8">
               <a href="#home" className="text-neutral-700 hover:text-amber-600 transition-colors font-medium">Home</a>
               <a href="#collections" className="text-neutral-700 hover:text-amber-600 transition-colors font-medium">Collections</a>
-              <a href="#about" className="text-neutral-700 hover:text-amber-600 transition-colors font-medium">About</a>
+              <Link to="/about" className="text-neutral-700 hover:text-amber-600 transition-colors font-medium">About</Link>
               <a href="#contact" className="text-neutral-700 hover:text-amber-600 transition-colors font-medium">Contact</a>
             </nav>
           </div>
@@ -335,7 +335,7 @@ const Home = () => {
               <ul className="space-y-2">
                 <li><a href="#home" className="text-neutral-400 hover:text-amber-400 transition-colors">Home</a></li>
                 <li><a href="#collections" className="text-neutral-400 hover:text-amber-400 transition-colors">Collections</a></li>
-                <li><a href="#about" className="text-neutral-400 hover:text-amber-400 transition-colors">About Us</a></li>
+                <li><Link to="/about" className="text-neutral-400 hover:text-amber-400 transition-colors">About Us</Link></li>
                 <li><a href="#contact" className="text-neutral-400 hover:text-amber-400 transition-colors">Contact</a></li>
                 <li><Link to="/terms" className="text-neutral-400 hover:text-amber-400 transition-colors">Terms & Conditions</Link></li>
               </ul>

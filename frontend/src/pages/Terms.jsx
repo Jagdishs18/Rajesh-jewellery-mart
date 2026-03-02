@@ -40,135 +40,118 @@ const Terms = () => {
           <div className="space-y-8 text-neutral-700">
             <section>
               <h2 className="text-2xl font-semibold text-neutral-900 mb-4">1. Introduction</h2>
+              <p className="leading-relaxed mb-4">
+                For the purpose of these Terms and Conditions, the term "we", "us", "our" used anywhere on this page shall mean RAJESH JEWELLERY MART, whose registered/operational office is <strong>BBMP KHATHA NO 786/L-377, HSR LAYOUT SECTOR VI, Bengaluru KARNATAKA 560102</strong>. "you", "your", "user", "visitor" shall mean any natural or legal person who is visiting our website and/or agreed to purchase from us.
+              </p>
               <p className="leading-relaxed">
-                Welcome to Rajesh Jewellery Mart. These terms and conditions outline the rules and regulations for the use of our services and purchase of our products. By accessing this website and making purchases from our store, you accept these terms and conditions in full. Do not continue to use Rajesh Jewellery Mart's website if you do not accept all of the terms and conditions stated on this page.
+                Your use of the website and/or purchase from us are governed by following Terms and Conditions.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">2. Product Information</h2>
+              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">2. Website Content and Liability</h2>
               <p className="leading-relaxed mb-4">
-                We strive to provide accurate product descriptions, specifications, and pricing information. However:
+                The content of the pages of this website is subject to change without notice.
               </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>All jewellery items are subject to availability</li>
-                <li>Actual colors may vary slightly from images displayed on the website</li>
-                <li>Weights mentioned are approximate and may vary by ±2%</li>
-                <li>We reserve the right to modify product specifications without prior notice</li>
-                <li>Prices are subject to change based on gold rates and market conditions</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">3. Pricing and Payment</h2>
               <p className="leading-relaxed mb-4">
-                All prices are listed in Indian Rupees (INR) and include applicable taxes unless otherwise stated.
+                Neither we nor any third parties provide any warranty or guarantee as to the accuracy, timeliness, performance, completeness or suitability of the information and materials found or offered on this website for any particular purpose. You acknowledge that such information and materials may contain inaccuracies or errors and we expressly exclude liability for any such inaccuracies or errors to the fullest extent permitted by law.
               </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>Gold prices are calculated based on current market rates</li>
-                <li>Making charges and GST are additional to the base price</li>
-                <li>We accept cash, credit/debit cards, and digital payment methods</li>
-                <li>Full payment is required at the time of purchase</li>
-                <li>Invoices will be provided for all transactions</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">4. Quality Assurance</h2>
-              <p className="leading-relaxed mb-4">
-                All our jewellery comes with quality certifications:
-              </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>Hallmark certification for gold purity (BIS certified)</li>
-                <li>Diamond grading certificates from recognized laboratories</li>
-                <li>Gemstone authenticity certificates where applicable</li>
-                <li>Quality guarantee as per industry standards</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">5. Exchange and Return Policy</h2>
-              <p className="leading-relaxed mb-4">
-                We want you to be completely satisfied with your purchase:
-              </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>Exchange is available within 7 days of purchase with original invoice</li>
-                <li>Products must be in original condition with tags and certificates</li>
-                <li>Exchange value is calculated based on current gold rates</li>
-                <li>Making charges on exchanged items are non-refundable</li>
-                <li>Customized and engraved items cannot be exchanged or returned</li>
-                <li>Return policy may vary for special occasion purchases</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">6. Maintenance and Care</h2>
-              <p className="leading-relaxed mb-4">
-                To keep your jewellery looking beautiful:
-              </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>Free cleaning service available for lifetime</li>
-                <li>Store jewellery separately to avoid scratches</li>
-                <li>Remove jewellery before swimming, bathing, or exercising</li>
-                <li>Avoid exposure to harsh chemicals and perfumes</li>
-                <li>Regular professional inspection recommended</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">7. Custom Orders</h2>
-              <p className="leading-relaxed mb-4">
-                We offer custom jewellery design services:
-              </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>50% advance payment required for custom orders</li>
-                <li>Design approval must be obtained before production</li>
-                <li>Delivery time ranges from 15-30 days depending on complexity</li>
-                <li>Custom orders are not eligible for return or exchange</li>
-                <li>Final payment due upon completion and before delivery</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">8. Privacy and Data Protection</h2>
               <p className="leading-relaxed">
-                We respect your privacy and are committed to protecting your personal information. Customer data is collected only for transaction purposes and is never shared with third parties without consent. We maintain strict confidentiality of all customer information and purchase records.
+                Your use of any information or materials on our website and/or product pages is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services or information available through our website and/or product pages meet your specific requirements.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">9. Liability</h2>
+              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">3. Intellectual Property</h2>
+              <p className="leading-relaxed mb-4">
+                Our website contains material which is owned by or licensed to us. This material includes, but is not limited to, the design, layout, look, appearance and graphics. Reproduction is prohibited other than in accordance with the copyright notice, which forms part of these terms and conditions.
+              </p>
+              <p className="leading-relaxed mb-4">
+                All trademarks reproduced in our website which are not the property of, or licensed to, the operator are acknowledged on the website.
+              </p>
               <p className="leading-relaxed">
-                Rajesh Jewellery Mart shall not be liable for any indirect, incidental, or consequential damages arising from the use of our products. Our liability is limited to the purchase price of the item. We are not responsible for loss or damage occurring after delivery of the product.
+                Unauthorized use of information provided by us shall give rise to a claim for damages and/or be a criminal offense.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">10. Dispute Resolution</h2>
+              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">4. External Links</h2>
+              <p className="leading-relaxed mb-4">
+                From time to time our website may also include links to other websites. These links are provided for your convenience to provide further information.
+              </p>
               <p className="leading-relaxed">
-                Any disputes arising from purchases or services will be resolved through mutual discussion. If a resolution cannot be reached, the matter will be subject to the jurisdiction of courts in Bangalore, Karnataka. We encourage customers to contact us first for any concerns before seeking legal recourse.
+                You may not create a link to our website from another website or document without RAJESH JEWELLERY MART's prior written consent.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">11. Modifications</h2>
+              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">5. Cancellation and Refund Policy</h2>
+              <p className="leading-relaxed mb-4">
+                RAJESH JEWELLERY MART believes in helping its customers as far as possible, and has therefore a liberal cancellation policy. Under this policy:
+              </p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Cancellations will be considered only if the request is made within same day of placing the order. However, the cancellation request may not be entertained if the orders have been communicated to the vendors/merchants and they have initiated the process of shipping them.</li>
+                <li>RAJESH JEWELLERY MART does not accept cancellation requests for perishable items like flowers, eatables etc. However, refund/replacement can be made if the customer establishes that the quality of product delivered is not good.</li>
+                <li>In case of receipt of damaged or defective items please report the same to our Customer Service team. The request will, however, be entertained once the merchant has checked and determined the same at his own end. This should be reported within same day of receipt of the products.</li>
+                <li>In case you feel that the product received is not as shown on the site or as per your expectations, you must bring it to the notice of our customer service within same day of receiving the product. The Customer Service Team after looking into your complaint will take an appropriate decision.</li>
+                <li>In case of complaints regarding products that come with a warranty from manufacturers, please refer the issue to them.</li>
+                <li>In case of any Refunds approved by the RAJESH JEWELLERY MART, it'll take 1-2 days for the refund to be processed to the end customer.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">6. Shipping and Delivery Policy</h2>
+              <p className="leading-relaxed mb-4">
+                For International buyers, orders are shipped and delivered through registered international courier companies and/or International speed post only. For domestic buyers, orders are shipped through registered domestic courier companies and/or speed post only.
+              </p>
+              <p className="leading-relaxed mb-4">
+                Orders are shipped within 0-7 days or as per the delivery date agreed at the time of order confirmation and delivering of the shipment subject to Courier Company / post office norms.
+              </p>
+              <p className="leading-relaxed mb-4">
+                RAJESH JEWELLERY MART is not liable for any delay in delivery by the courier company / postal authorities and only guarantees to hand over the consignment to the courier company or postal authorities within 0-7 days from the date of the order and payment or as per the delivery date agreed at the time of order confirmation.
+              </p>
+              <p className="leading-relaxed mb-4">
+                Delivery of all orders will be to the address provided by the buyer. Delivery of our services will be confirmed on your mail ID as specified during registration.
+              </p>
               <p className="leading-relaxed">
-                Rajesh Jewellery Mart reserves the right to modify these terms and conditions at any time. Changes will be effective immediately upon posting on our website. Continued use of our services after changes constitutes acceptance of the modified terms.
+                For any issues in utilizing our services you may contact our helpdesk on <strong>9362320307</strong> or <strong>rajeshsusheel@gmail.com</strong>
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">12. Contact Information</h2>
+              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">7. Payment and Transaction Liability</h2>
+              <p className="leading-relaxed">
+                We shall be under no liability whatsoever in respect of any loss or damage arising directly or indirectly out of the decline of authorization for any Transaction, on Account of the Cardholder having exceeded the preset limit mutually agreed by us with our acquiring bank from time to time.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">8. Governing Law</h2>
+              <p className="leading-relaxed">
+                Any dispute arising out of use of our website and/or purchase with us and/or any engagement with us is subject to the laws of India.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">9. Contact Information</h2>
               <p className="leading-relaxed mb-4">
                 For any questions or concerns regarding these terms and conditions, please contact us:
               </p>
               <div className="bg-neutral-50 p-6 rounded-lg">
-                <p className="font-semibold mb-2">Rajesh Jewellery Mart</p>
-                <p>123 Jewellery Street, MG Road</p>
-                <p>Bangalore, Karnataka 560001</p>
-                <p className="mt-3">Phone: +91 98765 43210</p>
-                <p>Email: info@rajeshjewellery.com</p>
+                <p className="font-semibold mb-2">RAJESH JEWELLERY MART</p>
+                <p>BBMP KHATHA NO 786/L-377</p>
+                <p>HSR LAYOUT SECTOR VI</p>
+                <p>Bengaluru, Karnataka 560102</p>
+                <p className="mt-3">Phone: +91 9362320307</p>
+                <p>Email: rajeshsusheel@gmail.com</p>
               </div>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">10. Disclaimer</h2>
+              <p className="leading-relaxed italic text-sm bg-amber-50 p-4 rounded-lg border-l-4 border-amber-600">
+                The above content is created at RAJESH JEWELLERY MART's sole discretion. Razorpay shall not be liable for any content provided here and shall not be responsible for any claims and liability that may arise due to merchant's non-adherence to it.
+              </p>
             </section>
           </div>
 
@@ -182,8 +165,21 @@ const Terms = () => {
 
       {/* Footer */}
       <footer className="bg-neutral-900 text-white py-8">
-        <div className="container mx-auto px-4 text-center">
-          <p className="text-neutral-400 text-sm">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-wrap justify-center items-center gap-6 text-center">
+            <Link to="/" className="text-neutral-400 hover:text-amber-400 transition-colors text-sm">
+              Home
+            </Link>
+            <span className="text-neutral-600">•</span>
+            <Link to="/about" className="text-neutral-400 hover:text-amber-400 transition-colors text-sm">
+              About Us
+            </Link>
+            <span className="text-neutral-600">•</span>
+            <Link to="/terms" className="text-neutral-400 hover:text-amber-400 transition-colors text-sm">
+              Terms & Conditions
+            </Link>
+          </div>
+          <p className="text-neutral-400 text-sm text-center mt-4">
             &copy; {new Date().getFullYear()} Rajesh Jewellery Mart. All rights reserved.
           </p>
         </div>
