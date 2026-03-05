@@ -4,6 +4,9 @@ import { Toaster } from "./components/ui/sonner";
 import Home from "./pages/Home";
 import Terms from "./pages/Terms";
 import About from "./pages/About";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import RefundPolicy from "./pages/RefundPolicy";
+import ShippingPolicy from "./pages/ShippingPolicy";
 
 function App() {
   return (
@@ -11,8 +14,11 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/terms" element={<Terms />} />
           <Route path="/about" element={<About />} />
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/refund" element={<RefundPolicy />} />
+          <Route path="/shipping" element={<ShippingPolicy />} />
         </Routes>
       </BrowserRouter>
       <Toaster />
