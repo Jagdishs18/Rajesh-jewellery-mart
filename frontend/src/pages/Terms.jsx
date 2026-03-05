@@ -87,55 +87,42 @@ const Terms = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">5. Cancellation and Refund Policy</h2>
+              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">5. Related Policies</h2>
               <p className="leading-relaxed mb-4">
-                RAJESH JEWELLERY MART believes in helping its customers as far as possible, and has therefore a liberal cancellation policy. Under this policy:
+                For detailed information about specific policies, please refer to our dedicated policy pages:
               </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>Cancellations will be considered only if the request is made within same day of placing the order. However, the cancellation request may not be entertained if the orders have been communicated to the vendors/merchants and they have initiated the process of shipping them.</li>
-                <li>RAJESH JEWELLERY MART does not accept cancellation requests for perishable items like flowers, eatables etc. However, refund/replacement can be made if the customer establishes that the quality of product delivered is not good.</li>
-                <li>In case of receipt of damaged or defective items please report the same to our Customer Service team. The request will, however, be entertained once the merchant has checked and determined the same at his own end. This should be reported within same day of receipt of the products.</li>
-                <li>In case you feel that the product received is not as shown on the site or as per your expectations, you must bring it to the notice of our customer service within same day of receiving the product. The Customer Service Team after looking into your complaint will take an appropriate decision.</li>
-                <li>In case of complaints regarding products that come with a warranty from manufacturers, please refer the issue to them.</li>
-                <li>In case of any Refunds approved by the RAJESH JEWELLERY MART, it'll take 1-2 days for the refund to be processed to the end customer.</li>
-              </ul>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <Link to="/privacy" className="p-4 bg-amber-50 rounded-lg border border-amber-200 hover:bg-amber-100 transition-colors">
+                  <h3 className="font-semibold text-amber-900 mb-2">Privacy Policy</h3>
+                  <p className="text-sm text-neutral-600">Learn how we collect, use, and protect your personal information</p>
+                </Link>
+                <Link to="/refund" className="p-4 bg-blue-50 rounded-lg border border-blue-200 hover:bg-blue-100 transition-colors">
+                  <h3 className="font-semibold text-blue-900 mb-2">Refund Policy</h3>
+                  <p className="text-sm text-neutral-600">Understand our cancellation and refund procedures</p>
+                </Link>
+                <Link to="/shipping" className="p-4 bg-green-50 rounded-lg border border-green-200 hover:bg-green-100 transition-colors">
+                  <h3 className="font-semibold text-green-900 mb-2">Shipping Policy</h3>
+                  <p className="text-sm text-neutral-600">Details about our shipping and delivery process</p>
+                </Link>
+              </div>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">6. Shipping and Delivery Policy</h2>
-              <p className="leading-relaxed mb-4">
-                For International buyers, orders are shipped and delivered through registered international courier companies and/or International speed post only. For domestic buyers, orders are shipped through registered domestic courier companies and/or speed post only.
-              </p>
-              <p className="leading-relaxed mb-4">
-                Orders are shipped within 0-7 days or as per the delivery date agreed at the time of order confirmation and delivering of the shipment subject to Courier Company / post office norms.
-              </p>
-              <p className="leading-relaxed mb-4">
-                RAJESH JEWELLERY MART is not liable for any delay in delivery by the courier company / postal authorities and only guarantees to hand over the consignment to the courier company or postal authorities within 0-7 days from the date of the order and payment or as per the delivery date agreed at the time of order confirmation.
-              </p>
-              <p className="leading-relaxed mb-4">
-                Delivery of all orders will be to the address provided by the buyer. Delivery of our services will be confirmed on your mail ID as specified during registration.
-              </p>
-              <p className="leading-relaxed">
-                For any issues in utilizing our services you may contact our helpdesk on <strong>9362320307</strong> or <strong>rajeshsusheel@gmail.com</strong>
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">7. Payment and Transaction Liability</h2>
+              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">6. Payment and Transaction Liability</h2>
               <p className="leading-relaxed">
                 We shall be under no liability whatsoever in respect of any loss or damage arising directly or indirectly out of the decline of authorization for any Transaction, on Account of the Cardholder having exceeded the preset limit mutually agreed by us with our acquiring bank from time to time.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">8. Governing Law</h2>
+              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">7. Governing Law</h2>
               <p className="leading-relaxed">
                 Any dispute arising out of use of our website and/or purchase with us and/or any engagement with us is subject to the laws of India.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">9. Contact Information</h2>
+              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">8. Contact Information</h2>
               <p className="leading-relaxed mb-4">
                 For any questions or concerns regarding these terms and conditions, please contact us:
               </p>
@@ -150,7 +137,7 @@ const Terms = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">10. Disclaimer</h2>
+              <h2 className="text-2xl font-semibold text-neutral-900 mb-4">9. Disclaimer</h2>
               <p className="leading-relaxed italic text-sm bg-amber-50 p-4 rounded-lg border-l-4 border-amber-600">
                 The above content is created at RAJESH JEWELLERY MART's sole discretion. Razorpay shall not be liable for any content provided here and shall not be responsible for any claims and liability that may arise due to merchant's non-adherence to it.
               </p>
@@ -179,6 +166,18 @@ const Terms = () => {
             <span className="text-neutral-600">•</span>
             <Link to="/terms" className="text-neutral-400 hover:text-amber-400 transition-colors text-sm">
               Terms & Conditions
+            </Link>
+            <span className="text-neutral-600">•</span>
+            <Link to="/privacy" className="text-neutral-400 hover:text-amber-400 transition-colors text-sm">
+              Privacy Policy
+            </Link>
+            <span className="text-neutral-600">•</span>
+            <Link to="/refund" className="text-neutral-400 hover:text-amber-400 transition-colors text-sm">
+              Refund Policy
+            </Link>
+            <span className="text-neutral-600">•</span>
+            <Link to="/shipping" className="text-neutral-400 hover:text-amber-400 transition-colors text-sm">
+              Shipping Policy
             </Link>
           </div>
           <p className="text-neutral-400 text-sm text-center mt-4">
