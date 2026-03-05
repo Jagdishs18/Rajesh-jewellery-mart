@@ -241,6 +241,18 @@ const About = () => {
             <Link to="/terms" className="text-neutral-400 hover:text-amber-400 transition-colors text-sm">
               Terms & Conditions
             </Link>
+            <span className="text-neutral-600">•</span>
+            <Link to="/privacy" className="text-neutral-400 hover:text-amber-400 transition-colors text-sm">
+              Privacy Policy
+            </Link>
+            <span className="text-neutral-600">•</span>
+            <Link to="/refund" className="text-neutral-400 hover:text-amber-400 transition-colors text-sm">
+              Refund Policy
+            </Link>
+            <span className="text-neutral-600">•</span>
+            <Link to="/shipping" className="text-neutral-400 hover:text-amber-400 transition-colors text-sm">
+              Shipping Policy
+            </Link>
           </div>
           <p className="text-neutral-400 text-sm text-center mt-4">
             &copy; {new Date().getFullYear()} Rajesh Jewellery Mart. All rights reserved.

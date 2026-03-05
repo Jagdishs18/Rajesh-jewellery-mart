@@ -340,7 +340,16 @@ const Home = () => {
                 <li><a href="#collections" className="text-neutral-400 hover:text-amber-400 transition-colors">Collections</a></li>
                 <li><Link to="/about" className="text-neutral-400 hover:text-amber-400 transition-colors">About Us</Link></li>
                 <li><a href="#contact" className="text-neutral-400 hover:text-amber-400 transition-colors">Contact</a></li>
+              </ul>
+            </div>
+            
+            <div>
+              <h3 className="text-lg font-semibold mb-4">Policies</h3>
+              <ul className="space-y-2">
                 <li><Link to="/terms" className="text-neutral-400 hover:text-amber-400 transition-colors">Terms & Conditions</Link></li>
+                <li><Link to="/privacy" className="text-neutral-400 hover:text-amber-400 transition-colors">Privacy Policy</Link></li>
+                <li><Link to="/refund" className="text-neutral-400 hover:text-amber-400 transition-colors">Refund Policy</Link></li>
+                <li><Link to="/shipping" className="text-neutral-400 hover:text-amber-400 transition-colors">Shipping Policy</Link></li>
               </ul>
             </div>
             
